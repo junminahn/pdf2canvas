@@ -1,0 +1,35 @@
+{
+  "name": "pdf2canvas",
+  "version": "0.1.0",
+  "description": "Convert a pdf to image dataURL / file",
+  "author": "Junmin Ahn",
+  "license": "MIT",
+  "keywords": [
+    "dataurl",
+    "pdf",
+    "canvas",
+    "image",
+    "extract"
+  ],
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "HISTORY.md",
+    "index.js",
+    "NodeCanvasFactory.js"
+  ],
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/junminahn/pdf2canvas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/junminahn/pdf2canvas/issues"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "pdfjs-dist": "^2.3.200"
+  }
+}
